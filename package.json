@@ -1,0 +1,30 @@
+{
+  "homepage": "http://monterogatica.github.io/React-MatrizOffline-master",
+  "name": "React-MatrizOffline-master",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "amazon-product-api": "^0.4.4",
+    "core-js": "^3.6.5",
+    "lodash": "^4.17.4",
+    "prop-types": "^15.5.10",
+    "react": "^16.13.1",
+    "react-animate-css": "0.0.1",
+    "react-dom": "^16.13.1",
+    "react-materialize": "^1.0.10",
+    "react-player": "^2.3.1",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.11"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
